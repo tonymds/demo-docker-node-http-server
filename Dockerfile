@@ -1,8 +1,6 @@
-FROM alpine:latest
-MAINTAINER Tony Santos <tmdsonline@gmail.com>
+FROM zzrot/alpine-node
 
-# Install NodeJs
-RUN apk add --no-cache nodejs
+MAINTAINER Tony Santos <tsantos.net@gmail.com>
 
 # Install small http-server
 RUN npm install http-server -g
