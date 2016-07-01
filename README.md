@@ -2,6 +2,7 @@
 
 Tiny image (~30MB) with Node and a small http-server used mainly for prototyping.
 If you need to to build a small app and don't want to install Node on your machine for whatever reason, this is a good setup.
+Uses [ZZROTDesign/alpine-node](https://github.com/ZZROTDesign/alpine-node) and [indexzero/http-server](https://github.com/indexzero/http-server).
 
 ## Usage
 
@@ -23,7 +24,5 @@ And if you don't have node installed you can start another container to run comm
 The app should be running on your docker machine ip at port 8080
 
 ## Contributing
-
-Uses [ZZROTDesign/alpine-node](https://github.com/ZZROTDesign/alpine-node) and [indexzero/http-server](https://github.com/indexzero/http-server).
 
 Feel free to fork and improve, feedback is appreciated :)
